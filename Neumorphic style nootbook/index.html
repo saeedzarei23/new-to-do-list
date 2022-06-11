@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="titel">MY TO DO LIST</h1>
+    <div class="thing-todo">
+      <h2>things to do</h2>
+      <form  id="add-to-do">
+        <input
+          class="input"
+          id="to-list"
+          type="text"
+          placeholder="what do you want to do"
+        />
+        <button id="button">+</button>
+      </form>
+    </div>
+    <div id="your-list">
+      <h2>TO DO</h2>
+      <h2 data-list-count>0 thing left to do</h2>
+      <!-- <div class="task">
+        <div class="content">
+          <input type="text" class="text" value="my task" readonly />
+        </div>
+        <div class="action">
+          <label id="cheack" for="checkbox">
+            <span class="custom"></span>
+          </label>
+          <input id="checkbox" type="checkbox">
+          <button class="edit">edit</button>
+          <button id="red" class="remove">delet</button>
+        </div>
+      </div> -->
+      
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
